@@ -15,7 +15,7 @@ drive.mount('/content/drive')
 # =========================================================
 !pip install streamlit pandas -q
 
-Commented out IPython magic to ensure Python compatibility.
+# Commented out IPython magic to ensure Python compatibility.
 # =========================================================
 # STREAMLIT APP
 # =========================================================
