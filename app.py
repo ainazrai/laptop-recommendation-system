@@ -19,7 +19,6 @@ drive.mount('/content/drive')
 # STREAMLIT APP
 # =========================================================
 
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 
