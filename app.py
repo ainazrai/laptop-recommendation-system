@@ -13,7 +13,7 @@ drive.mount('/content/drive')
 # =========================================================
 # INSTALL STREAMLIT LIBRARIES
 # =========================================================
-python -m pip install streamlit
+pip install streamlit pandas
 
 # Commented out IPython magic to ensure Python compatibility.
 # # =========================================================
