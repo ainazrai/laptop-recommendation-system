@@ -374,17 +374,17 @@ if st.button("Get Recommendations"):
 
             st.markdown("---")
 
-!wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
-!chmod +x cloudflared
+# !wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+# !chmod +x cloudflared
 
 # =========================================================
 # RUN STREAMLIT
 # =========================================================
 
-!streamlit run app.py --server.port 8501 --server.address 0.0.0.0 &
+# !streamlit run app.py --server.port 8501 --server.address 0.0.0.0 &
 
 # =========================================================
 # CREATE PUBLIC WEBSITE LINK
 # =========================================================
 
-!./cloudflared tunnel --url http://localhost:8501
+# !./cloudflared tunnel --url http://localhost:8501
