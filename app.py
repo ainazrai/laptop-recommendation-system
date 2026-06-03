@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1uRij2FFteEr2cO0J9YyOLX2-WRiFIhyE
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 # =========================================================
 # INSTALL STREAMLIT LIBRARIES
